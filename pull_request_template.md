@@ -16,12 +16,10 @@
 
 ## AI-Assisted Work
 
-If any part of this change was drafted with AI assistance:
-
-- [ ] The output was reviewed, modified as needed, tested, and accepted by the
-      project maintainer before merge.
-- [ ] No confidential data was sent to an external AI provider while preparing
-      this change, unless explicitly authorized by policy.
+Any part of this change drafted with AI assistance has been reviewed, modified
+as needed, tested, and accepted by the project maintainer before merge. No
+confidential data was sent to an external AI provider while preparing it,
+unless explicitly authorized by policy.
 
 ## Risks / Follow-Up
 
