@@ -1,0 +1,33 @@
+name: Feature Request
+description: Suggest an enhancement or workflow improvement
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem To Solve
+      description: What user or business problem does this address?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Change
+      description: Describe the desired behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: success
+    attributes:
+      label: Success Criteria
+      description: How will we know this is done and working?
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Links, screenshots, edge cases, dependencies (no confidential data)

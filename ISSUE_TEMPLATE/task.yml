@@ -1,0 +1,27 @@
+name: Task
+description: Track a scoped implementation or cleanup item
+title: "[Task]: "
+labels:
+  - task
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is included in this task?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies / Notes
+      description: Related issues, blockers, rollout or environment notes
